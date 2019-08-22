@@ -107,7 +107,7 @@ footer {
 h1 {
     letter-spacing: -0.9px;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 2em;
     /* background: linear-gradient(to right, #BB66CC 0%, #55ccff 100%); */
     
     line-height: 100%;
@@ -126,10 +126,14 @@ a {
     color: white;
 }
 
+p {
+    margin: 8px 0px;
+}
+
 .ml6 {
     position: relative;
     font-weight: 900;
-    font-size: 3.3em;
+    font-size: 2.4em;
   }
   
   .ml6 .text-wrapper {
