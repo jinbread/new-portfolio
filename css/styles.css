@@ -162,6 +162,9 @@ p {
     main {
         padding: 0px 30px 30px 30px;
     }
+    body {
+        letter-spacing: 0px;
+    }
     .content, .content-extend, .content-2 {
         grid-template-columns: 1fr;
         padding: 4px 0;
