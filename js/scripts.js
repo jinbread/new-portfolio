@@ -20,29 +20,29 @@ anime.timeline({loop: true})
   });
 
 
-var logo = document.querySelector('.logo'); 
+// var logo = document.querySelector('.logo'); 
 
-logo.addEventListener('mouseover', function(event) {
-  anime({
-    targets: logo,
-    rotate: 360,
-  })
-})
+// logo.addEventListener('mouseover', function(event) {
+//   anime({
+//     targets: logo,
+//     rotate: 360,
+//   })
+// })
 
-logo.addEventListener('mouseout',  function(event) {
-  anime({
-    targets: logo,
-    rotate: 0,
-  })
-})
+// logo.addEventListener('mouseout',  function(event) {
+//   anime({
+//     targets: logo,
+//     rotate: 0,
+//   })
+// })
 
-var rotateLogo = 0
+// var rotateLogo = 0
 
-logo.addEventListener('touchstart', function(event) {
-  rotateLogo += 360;
+// logo.addEventListener('touchstart', function(event) {
+//   rotateLogo += 360;
   
-  anime({
-    targets: logo,
-    rotate: rotateLogo,
-  })
-})
+//   anime({
+//     targets: logo,
+//     rotate: rotateLogo,
+//   })
+// })
