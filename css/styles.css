@@ -144,6 +144,13 @@ display: inline-block;
 line-height: 1em;
 }
 
+.fas {
+    opacity: .5;
+    font-size: 0.9em;
+    margin-left: 4px;
+    height: 18px;
+}
+
 @media only screen and (max-width: 768px) {
     main {
         padding: 0px 30px 30px 30px;
