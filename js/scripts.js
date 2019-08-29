@@ -32,6 +32,7 @@ logo.addEventListener('mouseover', function(event) {
 logo.addEventListener('mouseout',  function(event) {
   anime({
     targets: logo,
+    rotate: 0,
   })
 })
 
