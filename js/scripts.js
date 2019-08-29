@@ -37,3 +37,13 @@ logo.addEventListener('mouseout',  function(event) {
     scale: 1
   })
 })
+
+var rotateLogo = 0
+
+logo.addEventListener('touchstart', function(event) {
+  anime({
+    targets: logo,
+    rotate: rotateLogo + 360,
+    scale: 1
+  })
+})
