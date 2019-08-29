@@ -61,6 +61,18 @@ a {
     color: white;
 }
 
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 p {
     margin: 8px 0px;
 }
@@ -145,10 +157,15 @@ line-height: 1em;
 }
 
 .fas {
-    opacity: .5;
+    opacity: .8;
     font-size: 0.9em;
     margin-left: 4px;
     height: 18px;
+}
+
+.fa-minus-circle {
+    opacity: .8;
+    color: red;
 }
 
 @media only screen and (max-width: 768px) {
